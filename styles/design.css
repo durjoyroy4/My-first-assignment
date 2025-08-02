@@ -30,7 +30,7 @@
 
 }
 
-.nav-down {
+button .nav-down {
     margin-right: 150px;
 }
 
@@ -288,7 +288,8 @@
     margin-top: 48px;
     gap: 24px;
 }
-.four-p2 button{
+
+.four-p2 button {
     border: none;
     background-color: transparent;
 }
@@ -302,6 +303,7 @@
 
 
 }
+
 .four-p2 .css {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -309,10 +311,149 @@
     align-items: flex-start;
     gap: 24;
 }
+
 .four-p2 .js {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     align-items: flex-start;
     gap: 24;
+}
+
+/* fifth part */
+.fifth-part {
+    margin: 111px 150px 48px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.fifth-part button {
+    border: none;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+.fi-p1 h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 0;
+}
+
+.fi-p1 p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 144px 48px 144px;
+}
+
+.fi-p2-re {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.reactjs-inner h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.reactjs-inner p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.fi-p2-no{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.nodejs-inner h3{
+     color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 0;
+}
+.nodejs-inner p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.fi-p2-mo{
+   margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.mongo-inner h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 0;
+}
+.mongo-inner p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 }
